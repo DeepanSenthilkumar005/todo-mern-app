@@ -9,7 +9,7 @@ function Todo() {
   const [todo, setTodo] = useState([]);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("ㅤ");
-  const url = "http://localhost:8000/api/todo";
+  const url = "https://todo-mern-app-l6ls.onrender.com/api/todo";
 
 
   useEffect(
